@@ -1,44 +1,46 @@
-h1 {
-    text-align: center;
-    /*text-shadow: 2px 2px rgb(255, 0, 0);*/
-    font-family: 'Courier New', Courier, monospace;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+#logo {
+    width: 176px;
+    height: 44;
 }
 
-p {
-    text-align: justify;
-    letter-spacing: 2px;
-    font-family: 'Courier New', Courier, monospace;
+#navbar_text {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    color: #b8b6b4;
 }
 
-ul {
-    text-align: center;
+#navbar_logo {
+    margin-right: 4%;
 }
 
-desc {
-    text-align: center;
+#navbar_options {
+    margin-left: 4%;
 }
 
-div {
-    background-color: brown;
-    color: antiquewhite;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 20px;
+body {
+    background-color: #1e1e48;
 }
 
-img {
-    width: 200px;
-    height: auto;
-    float: left;
-    margin-left: 15px;
-    margin-bottom: 5px;
-    border-radius: 100px;
+.navbar {
+    width: 100%;
+    height: 126px;
+    background-color:#12122B;
 }
 
-.center {
-    text-align: center;
-    border: 3px solid green;
-    width: 400px;
-    margin: 15px auto;
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.container, .container-fluid, .container-lx, .container-lg, .container-md, .container-sm {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
 }
