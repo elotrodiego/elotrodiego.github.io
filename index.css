@@ -6,22 +6,22 @@
     margin-right: 4%;
 }
 
+body {
+    background-color: #1e1e48;
+}
+
 .navbar_text {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 15px;
     color: #b8b6b4;
 }
 
-.navbar-logo {
+.navbar-brand {
     margin-right: 4%;
 }
 
-#navbar-options {
+.navbar-options {
     margin-left: 4%;
-}
-
-body {
-    background-color: #1e1e48;
 }
 
 .navbar {
@@ -30,35 +30,100 @@ body {
     background-color:#12122B;
 }
 
-#store_item {
-    padding-top: 3%;
-    width: 616px;
-    height: 353;
+#tab-busqueda a {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #b8b6b4;
+    text-transform: capitalize;
+    font-size: 14px;
+    margin-top: 30px;
 }
 
-#store_title {
+.titulo {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 16px;
     color: #b8b6b4;
     text-transform: uppercase;
+    padding-bottom: 4px;
+    letter-spacing: 2px;
 }
 
-#carousel-example-generic {
-    margin-top:150px;
+.store-text {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    color: #b8b6b4;
+    text-transform: uppercase;
+    text-align: left;
 }
 
-.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+.post-slider {
+    padding: 30px 0px 100px;
 }
 
-.container, .container-fluid, .container-lx, .container-lg, .container-md, .container-sm {
+.post-slider a {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-transform: uppercase;
+    font-size: 23px;
+    color: #b8b6b4;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.post-slider p {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #b8b6b4;
+    margin-top: 16%;
+}
+
+#pricebadge {
+    margin-top: 16%;
+}
+.container {
     width: 100%;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+    padding-right: 15px;
+    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.carousel {
+    position: relative;
+}
+
+.post-slider .carousel-indicators {
+    bottom: -70px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+
+    text-align: left;
+}
+
+.carousel-item {
+    float:left;
+    width: 100%;
+    margin-right: -100%;
+    backface-visibility: hidden;
+}
+
+.row {
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-6 {
+    max-width: 50%;
+    background-color:rgba(0, 0, 0, 0.308);
 }
