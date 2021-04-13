@@ -59,7 +59,11 @@ body {
     padding: 30px 0px 100px;
 }
 
-.post-slider a {
+.post-slider .carousel-indicators {
+    bottom: -70px;
+}
+
+.mainpage a {
     font-family: 'Noto Sans JP', sans-serif;
     text-transform: uppercase;
     font-size: 23px;
@@ -68,7 +72,7 @@ body {
     margin-bottom: 20px;
 }
 
-.post-slider p {
+.mainpage p {
     font-family: 'Noto Sans JP', sans-serif;
     text-transform: capitalize;
     font-size: 15px;
@@ -79,42 +83,13 @@ body {
 #pricebadge {
     margin-top: 16%;
 }
+
 .container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-}
-
-.carousel {
-    position: relative;
-}
-
-.post-slider .carousel-indicators {
-    bottom: -70px;
-}
-
-.carousel-indicators {
-    position: absolute;
-    right: 0;
-    left: 0;
-    z-index: 15;
-    display: flex;
-    justify-content: center;
-    padding-left: 0;
-    margin-right: 15%;
-    margin-left: 15%;
-    list-style: none;
-
-    text-align: left;
-}
-
-.carousel-item {
-    float:left;
-    width: 100%;
-    margin-right: -100%;
-    backface-visibility: hidden;
 }
 
 .row {
@@ -126,4 +101,51 @@ body {
 .col-md-6 {
     max-width: 50%;
     background-color:rgba(0, 0, 0, 0.308);
+}
+
+/*PAGINA DETALLE*/
+.gamepage .carousel-control-next {
+    margin-right: 52%;
+    margin-top: 33%
+}
+
+.gamepage .carousel-control-prev {
+    margin-top: 33%
+}
+
+.gamepage .carousel-indicators {
+    margin-right: 68%;
+    margin-bottom: 2%;
+}
+
+.gamepage a {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-transform: uppercase;
+    font-size: 23px;
+    color: #b8b6b4;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.gamepage p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 13px;
+    color: #b8b6b4;
+    padding-top: 10px;
+}
+
+#gameheader {
+    width: 324px;
+    height: 151px;
+}
+
+.gamepage .badge {
+    font-size: 10px;
+}
+
+.gamepage .gameinfo-title {
+    font-family: 'Noto Sans JP', sans-serif;
+    color:#556772;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding-right: 5px;
 }
