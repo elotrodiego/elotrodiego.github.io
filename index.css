@@ -103,6 +103,40 @@ body {
     background-color:rgba(0, 0, 0, 0.308);
 }
 
+.card {
+    background-color:#12122B;
+    border-color: #12122B;
+    border-width: 5px;
+}
+
+.album p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 13px;
+    color: #b8b6b4;
+}
+
+.button-text {
+    font-size: 12px;
+    color: green;
+    text-decoration-color: white;
+    text-decoration: solid;
+}
+
+.album img {
+    width: 340px;
+    height: 159px;
+}
+
+#badge-price {
+    color: green;
+    
+}
+
+.album a:hover {
+    color: white;
+    text-decoration-line: none;
+}
+
 /*PAGINA DETALLE*/
 .gamepage .carousel-control-next {
     margin-right: 52%;
@@ -148,4 +182,139 @@ body {
     text-transform: uppercase;
     font-size: 11px;
     padding-right: 5px;
+}
+
+.buygame {
+    margin-bottom: 5%;
+}
+
+.buygame .list-group-item{
+    background-color:rgba(0, 0, 0, 0);
+}
+
+.buygame h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    color: #b8b6b4;
+}
+
+.buygame .btn {
+    margin-bottom: 2px;
+}
+
+/*CONTACTO*/
+.contacto label {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #b8b6b4;
+}
+
+.contacto h4 {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-transform: uppercase;
+    color: #b8b6b4;
+    text-align: center;
+}
+
+.contacto .container {
+    background-color: rgba(0, 0, 0, 0.38);
+}
+
+.formulario h4 {
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.jumbotron-heading {
+    color: #b8b6b4;
+}
+
+/*REGISTRO*/
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.form-signin .form-control {
+    padding: 10px;
+}
+
+.form-signin h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-transform: uppercase;
+    color: #b8b6b4;
+    text-align: center;
+    padding-top: 40%;
+    padding-bottom: 5%;
+}
+
+.form-signin p {
+    color: white;
+    font-size: 13px;
+}
+
+#checkbox-text {
+    color: #b8b6b4;
+}
+
+.form-signin input {
+    background-color:#32353C;
+    border: 1px solid #26282D;
+    color: #E9E9E9;
+}
+
+body.login {
+	color: #E9E9E9;
+	background: radial-gradient(30% 40% at 40% 30%, rgba(33, 36, 41, .5) 0%, rgba(33, 36, 41, 0) 100%) no-repeat, url( 'https://store.cloudflare.steamstatic.com/public/shared/images/joinsteam/acct_creation_bg.jpg' ) -45vw 0 no-repeat, #212429;
+	font-family: "Motiva Sans", Sans-serif;
+	font-weight: normal;
+}
+
+.login-title {
+    font-family: 'Noto Sans JP', sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 34px;
+    color:white;
+    margin-bottom:30px;
+    margin-top: 50px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.login .text-field, .login select {
+	max-width: 300px;
+	background: #32353C;
+	border-radius: 3px;
+	color: #E9E9E9;
+	padding: 8px 6px;
+	display: block;
+	box-shadow: none;
+	width: 100%;
+	transition: border ease-in-out .5s;
+	border: 1px solid #26282D;
+	outline: none;
+	font-family: "Motiva Sans", Sans-serif;
+	font-weight: normal;
+}
+
+.login .signup-join {
+	max-width: 60%;
+	text-align: center;
+	font-size: 14px;
+    padding-top: 20%;
+}
+
+.signup-join-image {
+    width: 320px;
+}
+
+.joinsteam a {
+    margin-left: 17%;
 }
