@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notSteam</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="index.css"/>
+</head>
+<body>
+  <!--NAVEGACION-->
+  <nav class="navbar navbar-expand-lg navbar-dark text-uppercase">
+    <div class="navbar-logo container">
+      <a class="navbar-brand" href="index.html">
+        <img id="logo" src="imagenes/notSTEAM.svg" alt="steamico">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbar-options" class="container">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="navbar_text nav-link" href="index.html">Tienda <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar_text nav-link" href="#">Comunidad</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar_text nav-link" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ¡Bienvenido invitado!
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Registrarse</a>
+                <a class="dropdown-item" href="#">Iniciar Sesión</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="contacto container">
+    <div class="py-5 text-center">
+      <div class="loginbox container">
+        <h1 class="jumbotron-heading">NO ESTÁS CONECTADO</h1>
+        <p class="lead text-muted">Inicia sesión en tu cuenta para obtener ayuda con el estado de tu cuenta, tus compras y otros.</p>
+        <p>
+          <a class="btn btn-dark my-2" href="registro.html">Registrarse</a>
+
+          <a class="btn btn-dark my-2" href="login.html">Iniciar sesión</a>
+        </p>
+        </div>
+      </div>
+      
+      <hr class="mb-4">
+      <div class="formulario row">
+        <div class="col-md-8 order-md-1">
+          <h4 class="mb-3">CONTACTO</h4>
+          <form class="needs-validation" novalidate="">
+            <div class="row ">
+              <div class="col-md-5 mb-3">
+                <label for="firstName">Nombre</label>
+                <input id="firstName" class="form-control" type="text" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                  valid first name is required
+                </div>
+              </div>
+              <div class="col-md-7 mb-3">
+                <label for="firstName">Apellido</label>
+                <input id="firstName" class="form-control" type="text" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                  valid first name is required
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlSelect1">Especificar problema</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Problemas con mi cuenta</option>
+                <option>Problemas con una compra</option>
+                <option>Tengo cargos que no he hecho</option>
+                <option>Han accedido a mi cuenta</option>
+                <option>Cambiar región</option>
+                <option>Otro</option>
+              </select>
+            </div>
+            <div class="row ">
+              <div class="col-md-5 mb-3">
+                <label for="firstName">Asunto</label>
+                <input id="firstName" class="form-control" type="text" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                  asunto required
+                </div>
+              </div>
+
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1">Redacta tu problema</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <hr class="mb-4">
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Enviar</button>
+            <hr class="mb-4">
+            <hr class="mb-4">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
