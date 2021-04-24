@@ -233,6 +233,10 @@ body {
     padding-bottom: 5px;
 }
 
+.formulario .asunto {
+    width: 500%;
+}
+
 .jumbotron-heading {
     color: #b8b6b4;
 }
