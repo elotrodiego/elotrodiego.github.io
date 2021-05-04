@@ -72,13 +72,17 @@ body {
     bottom: -70px;
 }
 
-.mainpage a {
+.mainpage .destacado-titulo {
     font-family: 'Noto Sans JP', sans-serif;
     text-transform: uppercase;
     font-size: 23px;
     color: #b8b6b4;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    padding-top: 15px;
+    display: inline-block;
+}
+
+.mainpage .carousel {
+    background-color:rgba(0, 0, 0, 0.308);
 }
 
 .mainpage p {
@@ -86,7 +90,15 @@ body {
     text-transform: capitalize;
     font-size: 15px;
     color: #b8b6b4;
-    margin-top: 16%;
+}
+
+.mainpage .destacado-tag {
+    margin-top: 30%;
+}
+
+.mainpage .destacado-info {
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .pricebadge {
@@ -105,11 +117,6 @@ body {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
-}
-
-.col-md-6 {
-    max-width: 50%;
-    background-color:rgba(0, 0, 0, 0.308);
 }
 
 .card {
