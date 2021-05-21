@@ -347,6 +347,10 @@ body.login {
     width: 300px;
 }
 
+.pokebotones {
+    margin-top: 20px;
+}
+
 /*PARSLEY CSS*/
 input.parsley-success,
 select.parsley-success,
